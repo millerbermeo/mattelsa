@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn1-dos, .btn2-dos {
+    transition: 500ms;
+}
+
+
+.btn1-uno:hover .btn1-dos {
+    border-bottom: 2px solid white;
+    opacity: 100%;
+}
+
+.btn2-uno:hover .btn2-dos {
+    border-bottom: 2px solid white;
+}
+
+.sale:hover .sale2 {
+    opacity: 100%;
+}
+@import 'flowbite/css/flowbite.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
